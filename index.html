@@ -359,12 +359,29 @@
             box-shadow: 0 5px 15px rgba(0,0,0,0.2);
         }
 
+        .tf-option.selected {
+            border-color: #764ba2;
+            border-width: 5px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+            transform: scale(1.05);
+        }
+
         .tf-true {
             background: linear-gradient(135deg, #d4edda 0%, #c3e6cb 100%);
         }
 
+        .tf-true.selected {
+            background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+            color: white;
+        }
+
         .tf-false {
             background: linear-gradient(135deg, #f8d7da 0%, #f5c6cb 100%);
+        }
+
+        .tf-false.selected {
+            background: linear-gradient(135deg, #dc3545 0%, #c82333 100%);
+            color: white;
         }
 
         /* Drag and Drop Styles */
